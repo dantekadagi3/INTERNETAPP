@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Register Employee Here</h1><br>
+    <form>
+    <fieldset style="width: 600px">
+        <legend>Employee Personal Details</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="jina">
+        <br>
+        <label for="phoneno">Phone Number:</label>
+        <input type="number" id="phoneno" name="phoneno">
+        <br>
+        <label for="name">ID Number:</label>
+        <input type="number" id="IDNO" name="IDNO">
+        <br>
+        <label for="pin">KRA PIN:</label>
+        <input type="text" id="pin" name="pin">
+        <br>
+        <label for="mail">Email Address</label>
+        <input type="email" id="mail" name="mail">
+        <br>
+        <label for="gender">Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="Female"><br>
+        <br>
+        <label for="depertment">Depertment:</label>
+        
+        <input list="department">
+        <datalist id="department">
+            <option value="ICT">
+                <option value="Management">
+                    <option value="Finance">
+                        <option value="Human Resource">
+                            <option value="Human Resource">
+
+                                <option value="Customer Service">
+
+        </datalist>
+    
+    </fieldset>
+    <fieldset style="width: 600px;">
+        <legend>Employee Remuneration Package</legend>
+        <label for="salary">Basic Salary:</label>
+        <input type="number" id="salary" name="salary">
+        <br>
+        <label for="house">House Allowance:</label>
+        <input type="number" id="house" name="house">
+        <br>
+        <label for="commute">Commuter allowance:</label>
+        <input type="number" id="commute" name="commute">
+        
+    </fieldset>
+    <br>
+    <input type="submit" value="Register Employee">
+</form>
+    
+</body>
+</html>
