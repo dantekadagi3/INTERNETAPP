@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+    <h2>Class Attendance Form</h2>
+    <form action="/submit-">
+        <label for="regNo.">REGISTRATION NUMBER</label><br><br>
+        <input type="text" id="regNo." name="regNo." placeholder="reg Number" required>
+        <br>
+        <br>
+        <label for="Name">Enter Your Full Names</label><br><br>
+        <input type="text" id="Name" name="Name" placeholder="Full Names" required><br><br>
+        <!-- <button>Submit</button> -->
+        <input type="submit">
+    </form>
+</section>
+<section>
+    <h2>Q&A</h2>
+    <p>Which of the following is your cat's personality?</p>
+    <p>Please select one choice</p>
+    <form>
+        <input type="radio" id="clingy" name="personality">Clingy
+        <label for="clingy"></label>
+        <br>
+        <input type="radio" id="Playful" name="personality">Playful
+        <label for="Playful"></label>
+        <br>
+        <input type="radio" id="Sleepy head" name="personality">Sleepy head
+        <label for="Sleepy head"></label>
+        <br><br>
+        <button>Submit</button>
+    </form>
+</section>
+<br>
+<section>
+    <fieldset>
+    <h1>Form To Submit My Comments</h1>
+    
+        <fieldset>
+            <legend>Personal Details</legend>
+        <br>
+        <br>
+        <label for="name"> Name:</label>
+        <input type="text" id="name" name="fullnames" required>
+        <br>
+        <br>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="emailaddress" required>
+        <br>
+        <br>
+        <label for="gender"> Gender:</label>
+        <input type="radio" id="gender" name="gender">Male
+        <label for="female"></label>
+        <input type="radio" id="female" name="gender">Female
+        <label for="age">Age:</label>
+        <br><br>
+        <select id="age" name="age" size="1">
+            <option value="30">Under 30</option>
+            <option value="35">35</option>
+            <option value="40">40</option>
+            <option value="45">45</option>
+            <option value="50">50</option>
+        </select>
+        
+    </fieldset>
+    <fieldset>
+        <legend>Please Comment Here</legend>
+        <label>Comments:</label><br>
+    <textarea rows="3" cols="30"></textarea>
+</fieldset><br>
+</fieldset><br>
+ <button>Submit My Comments</button>
+</section>
+<section>
+    <h1>Register Employee Here</h1>
+    <fieldset>
+        <legend>Employee Personal Details</legend>
+        <label for="name">Name: <input type="text" id="name" required></input> </label><br><br>
+        <label for="phone">Phone Number: <input type="number" max="10" id="phone" required></input> </label><br><br>
+        <label for="idNumber">ID Number: <input type="number" id="idNumber"></input> </label><br><br>
+        <label for="pin">KRA PIN: <input type="number" id="pin" required></input> </label><br><br>
+        <label for="email">Email Address: <input type="email" id="name" required></input> </label><br><br>
+        <label for="gender"> Gender:</label>
+        <input type="radio" id="gender" name="gender">Male
+        <label for="female"></label>
+        <input type="radio" id="female" name="gender">Female
+        <br><br>
+        <label for="">Department:</label> 
+        <select id="department" name="department" size="1">
+            <option value="select-one">(Select One)</option>
+            <option value="Management">Management</option>
+            <option value="Finance">Finance</option>
+            <option value="ICT">ICT</option>
+            <option value="Human-Resource">Human Resource</option>
+            <option value="Customer-Service">Customer Service</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Employee Remneration Package</legend>
+        <label for="salary">Basic Salary: <input type="number" id="salary" required></input> </label><br><br>
+        <label for="house">House Allowance: <input type="number"  id="house" required></input> </label><br><br>
+        <label for="commuter">Commuter Allowance: <input type="number" id="commuter"></input> </label><br><br>
+    </fieldset><br>
+    <button>Register Employee</button>
+</section>
+</body>
+</html>
+
+
